@@ -1,147 +1,110 @@
-body {
-    font-family: Overpass;
-    color: #404042;
-    font-size: 18px;
-    margin: 0;
-}
-
-h1,
-{
-font-family: Chivo;
-}
-
-h2,
-{
-font-family: chivo color: #0080ff;
-
-}
-
-a {
-    color: #1A48E3;
-    font-weight: bold;
-    text-decoration: none;
-    transition: .3s;
-}
-
-a:hover {
-    color: #CE2FAE;
-}
-
-div {
-    background-color: white;
-}
-
-#logo {
-    width: 100px;
-}
-
-p {
-    color: #404042;
-    opacity: .7;
-}
-
-.container {
-    width: 800px;
-    margin: auto;
-}
-
-.banner {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/background.jpg');
-    background-size: cover;
+img {
+    width: 35%;
+    height: auto;
     text-align: center;
-    padding: 100px 0;
-
-}
-
-.banner h1 {
-    color: white;
-    font-size: 45px;
-    margin: 0;
-}
-
-.banner p {
-    color: white;
-    font-size: 24px;
-}
-
-.btn-blue {
-    background-color: #1A48E3;
-    color: white;
-    padding: 16px 48px;
-    border-radius: 4px;
-    display: inline-block;
-    text-decoration: none;
-    transition: .3s;
-
-}
-.button-blue:hover {
-    background-color: #0D1EC6;
-    color: white;
   }
 
-.card-white {
-    background: white;
-    box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
-    border-radius: 4px;
-    width: 200px;
-    text-align: center;
-    padding: 24px;
-    margin: 8px;
-}
-
-.card-white img {
-    width: 180px;
-    height: 180px;
-    object-fit: cover;
-    border-radius: 4px;
-}
-
-.card-white h3 {
-    margin-bottom: 0;
-}
-
-
-.cards {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 16px;
-}
-
-.footer {
-    background: #404042;
-    text-align: center;
-    padding: 24px 0;
-}
-
-.footer p {
+  h1{
     color: white;
+    /* background-color: #0080FF; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    font-weight: lighter;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-align: left;
+  }
+
+h2{
+    color: white;
+    background-color: #0080FF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: lighter;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-align: left;
 }
 
+  h3{
+    color: #0080FF;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    font-weight:small;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-align: center;
+  }
 
-@media (max-width: 800px) {
-    .cards {
-        grid-template-columns: 1fr;
-    }
+  h4{
+    color: #0080FF;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+        line-height: normal;
+    letter-spacing: 2px;
+    text-align: left;
+  }
 
-    .card-white {
-        width: auto;
-    }
+  h5{
+    color: #0080FF;
+    background-color: #b5daff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+     line-height: normal;
+    letter-spacing: 2px;
+    text-align: left;
+  }
+  h6{
+    color: darkgrey
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-align: left;
+  }
+  body{
+    color: #000080;
+background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: x-small;
+    line-height: normal;
+ 
+  }
+
+  .bluebg {
+   background-color:#0080FF; 
+     background-position: left;
+     height: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 5px;
+    text-align: justify;
+  }
+  .lblue {
+    background-color: white;
+    background-position: center;
+    height: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+    text-align: justify;
+  }
+
+  .bgrid {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-gap: 16px;
+    height: 100%;
+  }
+.skillsgrid{
+  background-color: #b5daff;
+  background-position: right;
+  height: 100%;
+  padding: 5px;
+  text-align: left;
 }
 
-@media (min-width: 500px) {
-    .container {
-        width: 400px;
-    }
-}
-
-@media (min-width: 800px) {
-    .container {
-        width: 600px;
-    }
-}
-
-@media (min-width: 1000px) {
-    .container {
-        width: 800px;
-    }
+.bullet {
+  {color: #0080FF}
 }
